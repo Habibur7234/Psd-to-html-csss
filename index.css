@@ -1,0 +1,319 @@
+/* NAVBAR DESIGN */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff9f3;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+
+  font-size: 20px;
+}
+li {
+  list-style: none;
+}
+.container {
+  background-color: #fff9f3;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  margin-right: 200px;
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+.menu a:hover {
+  transition: 0.5s ease;
+  color: #ffc178;
+  text-decoration: underline;
+}
+.menu button:hover {
+  transition: 0.5s ease;
+  color: #ffc178;
+}
+.logo {
+  margin-left: 200px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.btn1 {
+  font-size: 20px;
+  background-color: whitesmoke;
+  size: 100%;
+  border-radius: 35px;
+  border: none;
+
+  padding: 10px;
+}
+
+/*.ll{
+  background: url("/image/background.png");
+  background: url("/image/right.png")buttom left no-repeat;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+ background-size: 100% 50% ;
+ padding: 200px;
+*
+  
+.bgimage {
+  background-image: url("/image/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.bgimage h2 {
+  font-size: 50px;
+  padding-left: 120px;
+  color: #ffc178;
+}
+
+.bgimage p {
+  color: #7b8a91;
+  font-size: 20px;
+  padding-left: 120px;
+}
+.btn2 {
+  background-color: #ffc178;
+  font-size: large;
+  size: 100%;
+  border-radius: 35px;
+  border: none;
+  position: absolute;
+  left: 120px;
+  padding: 10px;
+} 
+
+.background_image{
+width: 100%;
+height: 700px;
+position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -;
+}
+*/
+.container2 {
+  position: relative;
+  text-align: start;
+  color: black;
+}
+.background_image1 {
+  width: 100%;
+  height: 700px;
+}
+.heading_text {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  font-size: 40px;
+  color: #ffc178;
+  font-weight: bold;
+}
+.p_text1 {
+  position: absolute;
+  font-size: 18px;
+  top: 315px;
+  left: 200px;
+  font-weight: 350;
+  font-style: normal;
+}
+.button2 {
+  position: absolute;
+  color: white;
+  font-weight: 200;
+  border: none;
+  font-size: 15px;
+  padding: 12px 30px 12px 30px;
+  top: 380px;
+  left: 200px;
+  border-radius: 35px;
+  background-color: #ffc178;
+}
+.container2 button:hover {
+  transition: 0.5s ease;
+  color: white;
+  text-decoration: underline;
+}
+.left_image {
+  position: absolute;
+  bottom: -60px;
+  left: 30px;
+  width: 500px;
+}
+.right_image {
+  position: absolute;
+  right: 40px;
+  bottom: -20px;
+}
+.container3 {
+  align-items: center;
+  color: black;
+}
+.p1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.p2 {
+  text-align: center;
+  font-size: 18px;
+}
+.p3 {
+  text-align: center;
+  font-size: 18px;
+}
+.p4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.container4 {
+  display: flex;
+  position: relative;
+  padding: 40px;
+  gap: 1.5em;
+  justify-content: center;
+}
+.card1 {
+  background-color: #f9703a;
+}
+
+.card2 {
+  background-color: #80be41;
+}
+
+.card3 {
+  position: relative;
+  background-color: #ffb258;
+  width: 270px;
+}
+.container4 p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 0px 20px 0px;
+}
+.p_1 {
+  position: absolute;
+  bottom: 1px;
+  left: 12px;
+}
+.container5 {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  align-items: center;
+}
+
+.video_player {
+  position: relative;
+  padding: 7px;
+  margin-top: 50px;
+  width: 420px;
+  height: 420px;
+  border-radius: 210px;
+  border: #fdf6ee;
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  padding: auto;
+}
+.container5 h1 {
+  color: black;
+}
+
+.image_besidevideo {
+  height: 200px;
+  width: 150px;
+  position: absolute;
+  left: 165px;
+}
+/* RESPONSIVE WEB DESIGN */
+
+@media screen and (max-width: 700px) {
+  .container {
+    background-color: #80be41;
+    display: flex;
+  }
+  .logo {
+    margin-left: 0px;
+    padding: 2px;
+  }
+
+  .menu a {
+    margin-right: 0px;
+    font-size: small;
+    padding: 10px;
+  }
+  .btn1 {
+    font-size: 20px;
+  }
+}
+/* RESPONSIVE WEB DESIGN  END*/
+
+.text_view p {
+  color: black;
+  text-align: start;
+  font-weight: 500;
+  font-size: 12.5px;
+}
+.calculation_view {
+  display: flex;
+  justify-content: space-between;
+}
+.text1 p {
+  size: 100px;
+  color: #ffba00;
+  font-size: large;
+}
+.text1 h1 {
+  color: #ffba00;
+}
+.text2 p {
+  size: 100px;
+  color: #ff5f72;
+  font-size: large;
+}
+.text2 h1 {
+  color: #ff5f72;
+}
+
+.text3 p {
+  size: 100px;
+  color: #43cb83;
+  font-size: large;
+}
+.text3 h1 {
+  color: #43cb83;
+}
+.around_university h1 {
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 50px;
+}
+.around_university{
+
+ 
+}
+
+
+
+.card_view {
+margin-top: 50px;
+display: flex;
+gap: 1.5em;
+justify-content: center;
+
+ 
+}
