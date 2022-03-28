@@ -242,27 +242,33 @@ position: absolute;
 
 @media screen and (max-width: 700px) {
   .container {
-    background-color: #80be41;
-    display: flex;
+    background-color: #6fb12d;
+  width: 700px;
+
+   
   }
-  .logo {
-    margin-left: 0px;
-    padding: 2px;
-  }
+.logo_image{
+
+  height: 50px;
+  width: 50px;
+}
+
 
   .menu a {
-    margin-right: 0px;
-    font-size: small;
-    padding: 10px;
+    font-size: 10px;
+ 
   }
-  .btn1 {
-    font-size: 20px;
+  .container4{
+
+    padding: 20px;
+    width: auto;
+
   }
 }
 /* RESPONSIVE WEB DESIGN  END*/
 
 .text_view p {
-  color: black;
+  color: rgb(87, 84, 84);
   text-align: start;
   font-weight: 500;
   font-size: 12.5px;
@@ -297,23 +303,41 @@ position: absolute;
   color: #43cb83;
 }
 .around_university h1 {
-  color: black;
+  color: rgb(77, 43, 43);
   text-align: center;
   margin-top: 60px;
   font-size: 50px;
 }
-.around_university{
-
- 
+.around_university {
 }
 
-
-
 .card_view {
-margin-top: 50px;
-display: flex;
-gap: 1.5em;
-justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.card_view p {
+  color: #27311c;
+}
+.around_university h3 {
+  color: #ffc178;
+  text-decoration: underline;
+  font-size: 14.5px;
+  margin-top: 8px;
+}
+.footer{
 
- 
+  display: flex;
+  background-color: #27311c;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-content: center;
+  align-items: center;
+}
+.div1{
+
+  align-items: center;
+  margin-top: 0px;
+  
 }
